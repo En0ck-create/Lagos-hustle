@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagos Hustle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="game">
+
+    <header>
+        <h1>LAGOS HUSTLE</h1>
+        <div class="stats">
+            <span>💰 ₦<b id="money">50000</b></span>
+            <span>🏠 <b id="house">No House</b></span>
+            <span>🚗 <b id="car">No Car</b></span>
+        </div>
+    </header>
+
+    <main>
+        <canvas id="gameCanvas" width="900" height="550"></canvas>
+
+        <aside>
+            <h2>Actions</h2>
+
+            <button id="workBtn">💼 Work</button>
+            <button id="shopBtn">🛒 Shop</button>
+            <button id="bankBtn">🏦 Bank</button>
+            <button id="houseBtn">🏠 Buy House</button>
+            <button id="carBtn">🚗 Buy Car</button>
+
+            <h2>Mission</h2>
+            <p id="mission">
+                Earn ₦100,000.
+            </p>
+
+            <button id="saveBtn">💾 Save Game</button>
+            <button id="loadBtn">📂 Load Game</button>
+
+            <p id="message"></p>
+        </aside>
+    </main>
+
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
